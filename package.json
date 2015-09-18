@@ -11,9 +11,9 @@
     "try-thread-sleep": "^1.0.0"
   },
   "scripts": {
-    "test": "node test/index.js",
-    "postinstall": "node postinstall",
-    "prepublish": "node postinstall"
+    "test": "nodejs test/index.js",
+    "postinstall": "nodejs postinstall",
+    "prepublish": "nodejs postinstall"
   },
   "repository": {
     "type": "git",
